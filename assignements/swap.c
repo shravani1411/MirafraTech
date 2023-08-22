@@ -23,10 +23,10 @@ int main()
 	
 	//Using bitwise operators
 	
-/*	a=a^b;
+	a=a^b;
 	b=a^b;
 	a=a^b;
-	printf("After swap using bitwise a=%d,b=%d\n",a,b);*/	//Using bitwise operators
+	printf("After swap using bitwise a=%d,b=%d\n",a,b);
 	
 	//using inline method
 	swap(&a,&b);

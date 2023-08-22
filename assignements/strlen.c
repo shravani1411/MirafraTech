@@ -3,17 +3,18 @@
 int mystrlen(char s[])
 {
 	int i,l;
-	for(i=0;s[i]!=0;i++)
-	{
+	for(i=0;s[i]!=0;i++);
+/*	{
 		l=i;
-	}
+	}*/
 	return i;
 }
+
 
 #include<stdio.h>
 int main()
 {
-	char s[40];
+	char s[100];
 	printf("Enter the string:\n");
 	scanf("%s",s);
 	//mystrlen(s);

@@ -3,12 +3,11 @@
 #include<stdio.h>
 int main()
 {
-int n,p,q,x,y;
-n=0x52;
-p=(n>>0)&0x03;
-q=(n>>6)&0x03;
-x=p^q;
-x=(x<<0)|(x<<6);
-x=x^n;
-printf("%x\n",x);
+	int n,res,x,y;
+	n=0x69;
+	res=((n>>2)&0x03)^((n>>5)&0x03);
+
+	x=(res<<2)|(res<<5);
+	x=x^n;
+	printf("%x\n",x);
 }

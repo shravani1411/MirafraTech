@@ -1,7 +1,7 @@
 /*Implement all the string functions like 
   atoi	*/
 
-int atoi(char s[])
+void atoi(char s[])
 {
 	int i,sum=0;
 	for(i=0;s[i]!=0;i++)

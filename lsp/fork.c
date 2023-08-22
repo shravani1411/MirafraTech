@@ -17,7 +17,7 @@ int main(void)
 	  }  
                    else
                     {
-			    getchar();
+//			    getchar();
 	 	     printf("I am a parent process\n");
 		     printf("Parent process ID : %d \n",getpid());
 		     printf("Parent's parent ID(Shell id) : %d\n",getppid());
